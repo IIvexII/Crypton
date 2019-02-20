@@ -5,5 +5,10 @@ This script is made only for educational purpose.The illegal  use of this script
 ## Programming Language
 * Python 3.x [![Python 3 Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/A4o4ymous/Crypton/ "Python 3 The Good Parts")
 
+## Supported OS
+* Windows
 ## Prerequisites
 * [Selenium](https://www.seleniumhq.org/)
+```
+pip install selenium
+```
