@@ -12,3 +12,5 @@ This script is made only for educational purpose.The illegal  use of this script
 ```
 pip install selenium
 ```
+### Preview
+![title](Crypton/preview/Preview.JPG)
