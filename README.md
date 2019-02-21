@@ -12,5 +12,8 @@ This script is made only for educational purpose.The illegal  use of this script
 ```
 pip install selenium
 ```
+### Attention
+Scan bar code to login into your account before launching attack.
+
 ### Preview
 ![title](https://github.com/A4o4ymous/Crypton/blob/master/preview/Preview.JPG)
