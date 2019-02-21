@@ -24,6 +24,7 @@ msg = ''
 count = 0
 cmd = ''
 Pic = False
+OpenChrome = False
 
 #FUNCTIONS
 
@@ -53,15 +54,18 @@ def GetInfo():
 
 def OpenWebDriver():
     global driver
-    try:
-        options = webdriver.ChromeOptions();
-        options.add_argument('--log-level 3') 
-        driver = webdriver.Chrome("chromedriver.exe",service_log_path='NUL')
-        driver.get('https://web.whatsapp.com/')
-    except:
-        print('Error: Download chromedriver.exe and place it in the script\'s folder...')
-        print('       Official Source Link: http://chromedriver.chromium.org/downloads')
-        sys.exit()
+    global OpenChrome
+    if OpenChrome != True:
+        try:
+            options = webdriver.ChromeOptions();
+            options.add_argument('--log-level 3') 
+            driver = webdriver.Chrome("chromedriver.exe",service_log_path='NUL')
+            driver.get('https://web.whatsapp.com/')
+        except:
+            print('Error: Download chromedriver.exe and place it in the script\'s folder...')
+            print('       Official Source Link: http://chromedriver.chromium.org/downloads')
+            sys.exit()
+    OpenChrome = True
 
 def SendMessage():
     global name
