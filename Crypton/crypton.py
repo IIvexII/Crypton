@@ -103,11 +103,11 @@ def about():
     print('Names               Work                   Contact')
     print('------------------------------------------------------------------------------------------------')
     print('Zafeer              Developer+Idea         Facebook: https://www.facebook.com/We.Are.Watching.U')
-    print('                                           Github: https://github.com/A4o4ymous')
+    print('                                           Github: https://github.com/iivexii')
     print('Vaibhava Mishra     Suggestions+Testing    Facebook: https://m.facebook.com/vaibhava.mishra.7965')
     print('                                           Github: https://github.com/Vaibhava7965')
     print('Ameer Hamza         Suggestions            Facebook: https://www.facebook.com/ahn9100')
-    print('                                           Github: https://github.com/blacklistedx')
+    print('                                           Github: https://github.com/ameerhmzx')
 def SendPic():
         global name
         global count
