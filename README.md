@@ -16,4 +16,4 @@ pip install selenium
 Scan bar code to login into your account before launching attack.
 
 ### Preview
-![title](https://github.com/A4o4ymous/Crypton/blob/master/preview/Preview.JPG)
+![title](https://github.com/IIvexII/Crypton/blob/master/preview/Preview.JPG)
