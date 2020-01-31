@@ -139,11 +139,12 @@ def SendPic():
                 imgClip = driver.find_element_by_xpath('//div[@title="Attach"]')
                 imgClip.click()
                 time.sleep(1)
-                img = driver.find_element_by_xpath('//ul[@class="_2imug"]/li[@class="_3L0q3 _167q _1Fc0v"]//input[@type="file"]')
+                img = driver.find_element_by_css_selector('ul li:nth-child(1n) button')
                 img.send_keys(os.getcwd() + "/Pic.jpg")    
                 time.sleep(1)
-                btn = driver.find_element_by_xpath('//div[@class="_3hV1n yavlE"]')
-                btn.click()
+                # btn = driver.find_element_by_xpath('//div[@class="_3hV1n yavlE"]')
+                # btn.click()
+                img.send_keys(Keys.ENTER)
 def GetCommands():
     global driver
     global Pic
